@@ -53,7 +53,7 @@
 - [x] Add precommit hooks
 - [x] Set up github rules (no pushing to main)
 - [x] Add tailwind && daisyui (including themes)
-- [ ] Add pocketbase
+- [x] Add pocketbase
 - [ ] Add solid-router
 - [ ] Add solid-icons
 - [ ] Merge
