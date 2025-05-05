@@ -50,9 +50,9 @@
 ### 0.0.0
 
 - [x] Set up project
-- [ ] Add precommit hooks
-- [ ] Set up github rules (no pushing to main)
-- [ ] Add tailwind && daisyui (including themes)
+- [x] Add precommit hooks
+- [x] Set up github rules (no pushing to main)
+- [x] Add tailwind && daisyui (including themes)
 - [ ] Add pocketbase
 - [ ] Add solid-router
 - [ ] Add solid-icons
