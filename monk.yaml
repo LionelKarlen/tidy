@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    - deno lint
+    - deno fmt
+    - deno run build
+    - git add -A
