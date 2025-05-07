@@ -61,10 +61,10 @@
 ### 0.1.0
 
 - [x] Bump version
-- [ ] Pb auth
-- [ ] Login page
+- [x] Pb auth
+- [x] Login page
 - [x] Layout + Navigation
-- [ ] Merge
+- [x] Merge
 
 ### 0.2.0
 
