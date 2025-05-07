@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Pb monorepo stuff
+src_pb/pocketbase
+src_pb/pb_data

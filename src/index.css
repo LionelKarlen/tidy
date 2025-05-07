@@ -1,68 +1,70 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "tidy-light";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(97% 0 0);
+  --color-base-300: oklch(94% 0 0);
+  --color-base-content: oklch(0% 0 0);
+  --color-primary: #90b494;
+  --color-primary-content: oklch(0% 0 0);
+  --color-secondary: #718f94;
+  --color-secondary-content: oklch(0% 0 0);
+  --color-accent: #bfc8ad;
+  --color-accent-content: oklch(0% 0 0);
+  --color-neutral: #262626;
+  --color-neutral-content: oklch(100% 0 0);
+  --color-info: #3993dd;
+  --color-info-content: oklch(16% 0 206);
+  --color-success: #86cd82;
+  --color-success-content: oklch(18% 0 165);
+  --color-warning: #ffd25a;
+  --color-warning-content: oklch(18% 0 80);
+  --color-error: #e26d5c;
+  --color-error-content: oklch(16% 0 30);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.28125rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+@plugin "daisyui/theme" {
+  name: "tidy-dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: "light";
+  --color-base-100: #353535;
+  --color-base-200: #2b2b2b;
+  --color-base-300: #212121;
+  --color-base-content: oklch(100% 0 0);
+  --color-primary: #90b494;
+  --color-primary-content: oklch(0% 0 0);
+  --color-secondary: #718f94;
+  --color-secondary-content: oklch(0% 0 0);
+  --color-accent: #bfc8ad;
+  --color-accent-content: oklch(0% 0 0);
+  --color-neutral: #262626;
+  --color-neutral-content: oklch(100% 0 0);
+  --color-info: #3993dd;
+  --color-info-content: oklch(16% 0 206);
+  --color-success: #86cd82;
+  --color-success-content: oklch(18% 0 165);
+  --color-warning: #ffd25a;
+  --color-warning-content: oklch(18% 0 80);
+  --color-error: #e26d5c;
+  --color-error-content: oklch(16% 0 30);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.28125rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
 }
