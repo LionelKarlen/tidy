@@ -15,7 +15,7 @@ const Icon = (props: IconProps) => {
     <Dynamic
       component={props.icon}
       size={props.size ?? 24}
-      color={props.color ?? "#FFFFFF"}
+      color={props.color}
     />
   );
 };

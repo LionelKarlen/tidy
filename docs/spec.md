@@ -56,15 +56,15 @@
 - [x] Add pocketbase
 - [x] Add solid-router
 - [x] Add solid-icons
-- [ ] Merge
+- [x] Merge
 
 ### 0.1.0
 
-- [ ] Bump version
-- [ ] Pb auth
-- [ ] Login page
-- [ ] Layout + Navigation
-- [ ] Merge
+- [x] Bump version
+- [x] Pb auth
+- [x] Login page
+- [x] Layout + Navigation
+- [x] Merge
 
 ### 0.2.0
 

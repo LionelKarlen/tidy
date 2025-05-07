@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import "tailwindcss";
 @plugin "daisyui";
 @plugin "daisyui/theme" {
@@ -67,4 +68,21 @@
   --border: 1px;
   --depth: 0;
   --noise: 0;
+}
+.tidy-logo {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+:root:has(
+  :is(
+    .drawer-toggle:checked,
+    .modal-open,
+    .modal:target,
+    .modal-toggle:checked + .modal,
+    .modal[open]
+  )
+) {
+  scrollbar-gutter: unset;
 }
