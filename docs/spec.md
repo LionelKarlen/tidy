@@ -63,7 +63,7 @@
 - [x] Bump version
 - [ ] Pb auth
 - [ ] Login page
-- [ ] Layout + Navigation
+- [x] Layout + Navigation
 - [ ] Merge
 
 ### 0.2.0

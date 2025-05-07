@@ -1,8 +1,20 @@
 /* @refresh reload */
-import { render } from "solid-js/web";
+import { For, render } from "solid-js/web";
 import "./index.css";
-import App from "./App.tsx";
+import { Route, Router } from "@solidjs/router";
+import { routes } from "./routes";
+import Layout from "./layout";
 
 const root = document.getElementById("root");
 
-render(() => <App />, root!);
+const Index = () => {
+  return (
+    <Router root={Layout}>
+      <For each={routes}>
+        {(route) => <Route path={route.href} component={route.page} />}
+      </For>
+    </Router>
+  );
+};
+
+render(() => <Index />, root!);
