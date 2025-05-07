@@ -54,8 +54,8 @@
 - [x] Set up github rules (no pushing to main)
 - [x] Add tailwind && daisyui (including themes)
 - [x] Add pocketbase
-- [ ] Add solid-router
-- [ ] Add solid-icons
+- [x] Add solid-router
+- [x] Add solid-icons
 - [ ] Merge
 
 ### 0.1.0
