@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "npm:@solidjs/router@~0.15.3": "0.15.3_solid-js@1.9.5__seroval@1.2.1",
     "npm:@tailwindcss/vite@^4.1.5": "4.1.5_vite@6.3.4__picomatch@4.0.2",
     "npm:daisyui@^5.0.35": "5.0.35",
     "npm:solid-js@^1.9.5": "1.9.5_seroval@1.2.1",
@@ -334,6 +335,12 @@
     },
     "@rollup/rollup-win32-x64-msvc@4.40.1": {
       "integrity": "sha512-ECyOuDeH3C1I8jH2MK1RtBJW+YPMvSfT0a5NN0nHfQYnDSJ6tUiZH3gzwVP5/Kfh/+Tt7tpWVF9LXNTnhTJ3kA=="
+    },
+    "@solidjs/router@0.15.3_solid-js@1.9.5__seroval@1.2.1": {
+      "integrity": "sha512-iEbW8UKok2Oio7o6Y4VTzLj+KFCmQPGEpm1fS3xixwFBdclFVBvaQVeibl1jys4cujfAK5Kn6+uG2uBm3lxOMw==",
+      "dependencies": [
+        "solid-js"
+      ]
     },
     "@tailwindcss/node@4.1.5": {
       "integrity": "sha512-CBhSWo0vLnWhXIvpD0qsPephiaUYfHUX3U9anwDaHZAeuGpTiB3XmsxPAN6qX7bFhipyGBqOa1QYQVVhkOUGxg==",
@@ -797,6 +804,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@solidjs/router@~0.15.3",
         "npm:@tailwindcss/vite@^4.1.5",
         "npm:daisyui@^5.0.35",
         "npm:solid-js@^1.9.5",
